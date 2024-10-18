@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Scopy",
+    "version": "1.0",
+    "description": "A web extension that fetches user information and stores it into a DB.",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "icons": {
+        "48": "icons/beasts-48.png"
+    }
+}
